@@ -12,5 +12,8 @@ Logic Sampling is an approximate inference method for Bayesian Networks. It work
 # Likelihood Weighting (LW)
 Likelihood Weighting is another approximate inference technique for Bayesian Networks. It generates samples by taking into account the given evidence and assigns weights to each sample based on how consistent they are with the evidence. LW then uses these weighted samples to approximate probabilities, which can be used for inference in Bayesian Networks.
 
+# The Kullback-Leibler divergence
+ To assess the performance of a particular approximate inference algorithm, or to compare approximate inference algorithms, the Kullback-Leibler divergence is used as a measure for the quality of the solution at any particular time.
+ 
 ![First](https://github.com/JamiaEMJMD/Bayesian-Networks/blob/main/Bayesian%20Networks-1/images/im1.png)
 ![Second](https://github.com/JamiaEMJMD/Bayesian-Networks/blob/main/Bayesian%20Networks-1/images/im2.png)
